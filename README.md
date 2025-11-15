@@ -2,6 +2,21 @@
 
 This is a small, local Streamlit app that detects the language of an input text, translates it into English (by default) using `deep-translator`'s Google translator backend, and offers a short neutral suggested response. The app is intentionally simple and framework-free.
 
+## Clone the repository
+
+Clone this repository locally using `git`. Replace `OWNER` and `REPO` with the correct values, or copy the URL from your remote provider (GitHub, GitLab, etc.). Example (GitHub):
+
+```bash
+git clone https://github.com/spabhijna/Real-Time-Multilingual-Query-Handler_HiDevs.git
+cd Real-Time-Multilingual-Query-Handler_HiDevs
+```
+
+If you already have the remote configured and want to fetch the latest changes:
+
+```bash
+git pull origin main
+```
+
 **Notes:**
 - The project requires Python >= 3.12 (see `pyproject.toml`).
 - You said you use `uv` for dependency control — instructions for `uv` are below. A `pip` fallback is also provided.
